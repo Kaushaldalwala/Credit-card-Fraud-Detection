@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Fraud Predictor</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <div class="app-card">
+        <h2>Fraud Detection Console</h2>
+        <p class="subtitle">Provide the specific 14 feature array requested by the classification model.</p>
+        
+        <form id="fraudPredictionForm">
+            <div class="grid-layout" id="inputContainer"></div>
+            <button type="submit" id="submitButton">Analyze Transaction Parameters</button>
+        </form>
+
+        <div id="outputCard" class="output hidden">
+            <h3>Evaluation Analysis</h3>
+            <p id="outputText"></p>
+        </div>
+    </div>
+
+    <script src="../static/script.js"></script>
+</body>
+</html>
